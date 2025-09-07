@@ -8,9 +8,9 @@
 $(call inherit-product, device/sony/aurora/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_aurora
+PRODUCT_NAME := lmodroid_aurora
 PRODUCT_DEVICE := aurora
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
